@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">FFF Diamonds and Elite pass</string>
+    <string name="app_name" translatable="false">Diamonds and Elite pass</string>
 
     <!-- TODO Enable ads which ad network you want -->
     <string name="ad_network" translatable="false">admob</string> <!-- admob/facebook/startapp -->

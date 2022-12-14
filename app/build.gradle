@@ -8,8 +8,12 @@ android {
         applicationId "com.scrachandearn.codestudio"
         minSdkVersion 16
         targetSdkVersion 33
-        versionCode 1
-        versionName "1.1"
+        // every time need to change version code
+        versionCode 5
+        // version name for internal testing release need to change every time
+        versionName "1.0.4"
+        // version name for stable release need to change every time
+        //versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
