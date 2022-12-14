@@ -10,11 +10,9 @@ android {
         minSdkVersion 16
         targetSdkVersion 33
         // every time need to change version code
-        versionCode 5
-        // version name for internal testing release need to change every time
-        versionName "1.0.4"
-        // version name for stable release need to change every time
-        //versionName "1.0"
+        versionCode 7
+        // version name need to change every time
+        versionName "1.1.5"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -45,6 +43,7 @@ dependencies {
     //sceen Size
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
 
     //update app
     implementation 'com.google.android.play:core:1.8.3'

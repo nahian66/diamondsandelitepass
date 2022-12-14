@@ -12,20 +12,20 @@
 
 
 
-    <!--Test Admob ids-->
+    <!--Test Admob ids
     <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
     <string name="admob_rewarded_video_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+-->
 
 
-
-    <!--TODO change these admob id's with your own admob ads
+    <!--TODO change these admob id's with your own admob ads -->
     <string name="admob_app_id" translatable="false">ca-app-pub-5113615350429592~6120167782</string>
     <string name="admob_banner_ad_id" translatable="false">ca-app-pub-5113615350429592/1741939076</string>
     <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-5113615350429592/5295500263</string>
     <string name="admob_rewarded_video_id" translatable="false">ca-app-pub-5113615350429592/6305329609</string>
--->
+
 
 
     <!--TODO change these facebook id's with your own facebook ads-->
