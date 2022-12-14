@@ -10,9 +10,9 @@ android {
         minSdkVersion 16
         targetSdkVersion 33
         // every time need to change version code
-        versionCode 5
+        versionCode 6
         // version name for internal testing release need to change every time
-        versionName "1.0.4"
+        versionName "1.0.5"
         // version name for stable release need to change every time
         //versionName "1.0"
         multiDexEnabled true
