@@ -2,7 +2,7 @@ package com.rowdystudio.fffdiamondsandelitespass.utils;
 
 public class BaseUrl {
 
-    public static final String BASE_URL = "https://5besttech.com/api/api/";
+    public static final String BASE_URL = "https://fffdiamonds.crisisstudio.com/api/";
 
     public static final String LOGIN_API = BASE_URL + "login";
     public static final String REGISTER_API = BASE_URL + "registers";

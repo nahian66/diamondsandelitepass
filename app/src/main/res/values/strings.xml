@@ -29,9 +29,9 @@
 
 
     <!--TODO change these facebook id's with your own facebook ads-->
-    <string name="facebook_banner_ads" translatable="false">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
-    <string name="facebook_interstitial_ad_id" translatable="false">VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID</string>
-    <string name="facebook_rewarded_video_id" translatable="false">VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <string name="facebook_banner_ads" translatable="false">1252039419025235_1252077709021406</string>
+    <string name="facebook_interstitial_ad_id" translatable="false">1252039419025235_1252077935688050</string>
+    <string name="facebook_rewarded_video_id" translatable="false">1252039419025235_1252078242354686</string>
 
     <!--TODO change these startApp id's with your own startApp id -->
     <string name="startapp_app_id" translatable="false">209955093</string>
