@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    tools:context=".activity.RedeemActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_6sdp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/home_background"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/text_view_redeem"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/top_background_image"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:text="@string/withdraw"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp" />
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                app:srcCompat="@drawable/ic_trophy" />
+
+            <LinearLayout
+                android:id="@+id/points_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/points_background"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_6sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_coin" />
+
+                <TextView
+                    android:id="@+id/user_points_text_view_redeem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/carter_one"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:text="@string/oneCoinEquleTwo"
+                android:textColor="@color/progressBarColor"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:text="@string/withdraw_term"
+                android:textColor="@color/progressBarColor"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:text="@string/withdraw_methods"
+                android:textColor="@color/progressBarColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/payment_group"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/paytm_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:fontFamily="@font/carter_one"
+                    android:text="@string/paytm"
+                    android:textColor="@color/progressBarColor"
+                    android:textSize="@dimen/_8ssp" />
+
+                <RadioButton
+                    android:id="@+id/phone_pe_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/carter_one"
+                    android:text="@string/paypal"
+                    android:textColor="@color/progressBarColor"
+                    android:textSize="@dimen/_8ssp" />
+
+                <RadioButton
+                    android:id="@+id/upi_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/carter_one"
+                    android:text="@string/upi_id"
+                    android:textColor="@color/progressBarColor"
+                    android:textSize="@dimen/_8ssp" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/redeem_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_8sdp"
+                android:background="@drawable/edit_text_background"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:hint="@string/number_or_upi"
+                android:inputType="textAutoCorrect"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hintColor"
+                android:textSize="@dimen/_12ssp" />
+
+            <EditText
+                android:id="@+id/points_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_8sdp"
+                android:background="@drawable/edit_text_background"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:hint="@string/enter_points"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hintColor"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/redeem_btn"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/edit_text_background"
+                android:fontFamily="@font/carter_one"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/withdraw_money"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name" translatable="false">ScratchSpin</string>
+
+    <!-- TODO Enable ads which ad network you want -->
+    <string name="ad_network" translatable="false">admob</string> <!-- admob/facebook/startapp -->
+
+    <!-- TODO set spin and scratch count according to your need -->
+    <string name="spin_and_scratch_count" translatable="false">25</string>
+
+    <!-- TODO set rewarded video and interstitial count according to your need to show rewarded video an interstitial ads after some scratch or spin-->
+    <string name="rewarded_and_interstitial_ads_between_count" translatable="false">3</string>
+
+
+    <!--TODO change these admob id's with your own admob ads-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_rewarded_video_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+
+    <!--TODO change these facebook id's with your own facebook ads-->
+    <string name="facebook_banner_ads" translatable="false">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <string name="facebook_interstitial_ad_id" translatable="false">VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <string name="facebook_rewarded_video_id" translatable="false">VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+
+    <!--TODO change these startApp id's with your own startApp id-->
+    <string name="startapp_app_id" translatable="false">209955093</string>
+
+    <!--TODO change these privacy policy and terms and condition link with your own links-->
+    <string name="privacy_policy_link" translatable="false">https://google.com</string>
+    <string name="terms_and_condition_link" translatable="false">https://google.com</string>
+
+    <!--TODO change these minimum Redeem Amount-->
+    <string name="minimum_redeem_amount" translatable="false">5000</string>
+
+    <!--TODO change these singup bonus give to user at sign up-->
+    <string name="singup_bonus_points" translatable="false">100</string>
+    <!--TODO change these daily check in limit ACCORDING TO NEED-->
+    <string name="daily_check_in_points" translatable="false">20</string>
+
+    <string name="redeem_tag_line_1">Are You Sure to want Redeem your points</string>
+    <string name="redeem_tag_line_2">your number or upi id is </string>
+    <string name="redeem_tag_line_3">and your redeem points are </string>
+    <string name="redeem_tag_line_4">and your redeem method is </string>
+    <string name="refer_more">Refer More to Earn More</string>
+    <string name="refer_desc">Invite your friend on Daily Loot - Scratch &amp; Spin to Win App using your Refer Code to Earn 500 Points when they redeem his points first time on Daily Loot - Scratch &amp; Spin to Win. Your friend also get 100 Points as Sign up Bonus.</string>
+
+    <string name="loading">Loading…</string>
+    <string name="login">Login</string>
+    <string name="number">Number</string>
+    <string name="password">Password</string>
+    <string name="didNotSign_up">Not Have Account ? Sign up here.</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_valid_number">Enter Valid Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="have_an_account">Already Have Account ? Login here.</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_valid_email">Enter Valid Email</string>
+    <string name="enter_6_digit_password">Enter 6 or More Digit Password</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="select_language">Select Language</string>
+    <string name="select">Select</string>
+    <string name="referCode">Referral Code (optional)</string>
+    <string name="please_wait">Please Wait…</string>
+    <string name="getting_data_from_server">Fetching Your data from server</string>
+    <string name="login_successfully">Login Successfully…</string>
+    <string name="cheating_in_app">You Are Blocked For Cheating in our app</string>
+    <string name="registration_success">Registration Successfully…</string>
+    <string name="login_in_progress">Login</string>
+    <string name="signup_in_progress">Sign Up</string>
+    <string name="no_user_found">This Email is not Registered.</string>
+    <string name="spin_wheel">Spin Wheel</string>
+    <string name="scratch">Scratch Card</string>
+    <string name="daily_checkin">Daily Checkin</string>
+    <string name="slot_machine">Slot Machine</string>
+    <string name="refer_and_win"><![CDATA[Refer & Win]]></string>
+    <string name="profile">Profile</string>
+    <string name="rate_this_app">Rate This App</string>
+    <string name="LoginFirst">Login First</string>
+    <string name="you_won">Congratulation you won</string>
+    <string name="add_to_wallet">Add</string>
+    <string name="okk">Okk</string>
+    <string name="today_chance_over">Today\'s Chance is over, try again tomorrow</string>
+    <string name="better_luck">Better Luck Next Time</string>
+    <string name="today_checkin_over">You Already Collect Today Reward, try again tomorrow</string>
+    <string name="cancel">No</string>
+    <string name="exit_text">Are you sure to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no_internet_connection">No Internet Connection please check your internet connection.</string>
+
+    <string name="slow_internet_connection">Slow Internet Connection Please Check your Internet Connection</string>
+    <string name="play">Play</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="withdraw">Redeem Points</string>
+    <string name="updateing_profile">Updating Your Profile</string>
+    <string name="update_successfully">Your Profile Update Successfully</string>
+    <string name="login_first">Login First</string>
+    <string name="change_language">Change Language</string>
+    <string name="others_settings">Settings</string>
+    <string name="your_referCode">Your Refer Code</string>
+    <string name="how_does_refer_work">How Does Refer Work?</string>
+    <string name="user_registered">User Register</string>
+    <string name="first_payout">User First Redeem</string>
+    <string name="get_reward">Get Reward</string>
+    <string name="refer_now">Refer Now</string>
+    <string name="term">Terms &amp; Condition</string>
+    <string name="not_change_email">You can\'t change email</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="music">Music</string>
+    <string name="withdraw_term">Minimum Redeem Points is 5000</string>
+    <string name="oneCoinEquleTwo">100 Coins = 1 INR</string>
+    <string name="number_or_upi">Enter Number, Paypal or Upi Id</string>
+    <string name="withdraw_methods">You Can Redeem Points via Paytm , Paypal or Upi Id</string>
+    <string name="withdraw_money">Redeem</string>
+    <string name="enter_points">Enter Points</string>
+    <string name="enterNumberOrUpi">Enter Number Or Upi Id</string>
+    <string name="enter_correct_points">Enter Correct Points</string>
+    <string name="redeem_successfully">Redeem Successfully</string>
+    <string name="in_progress">In Progress</string>
+    <string name="you_are_blocked">You Are Blocked due to cheating in this app</string>
+    <string name="incomplite_profile">Your Profile is Incomplete please update your Profile</string>
+    <string name="paytm">Paytm</string>
+    <string name="phonePe">Paypal</string>
+    <string name="upi_id">Upi</string>
+    <string name="paypal">Paypal</string>
+    <string name="referCodeoptional">"Refer Code (Optional) "</string>
+
+
+    <string name="forgot_password" translatable="false">Forgot Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="reset_password" translatable="false">Reset Password</string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="otp">Enter OTP</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="resend_otp">Did not get OTP? Resend</string>
+
+
+</resources>

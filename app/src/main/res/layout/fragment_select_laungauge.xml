@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    tools:context=".fragments.selectLaungaugeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_6sdp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/home_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/top_background_image"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:text="@string/select_language"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_22ssp" />
+
+
+            <RadioGroup
+                android:id="@+id/radio_group_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_6sdp">
+
+                <RadioButton
+                    android:id="@+id/english_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:checked="true"
+                    android:fontFamily="@font/carter_one"
+                    android:text="@string/english"
+                    android:textColor="@color/progressBarColor"
+                    android:textSize="@dimen/_16ssp" />
+
+                <RadioButton
+                    android:id="@+id/hindi_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:fontFamily="@font/carter_one"
+                    android:text="@string/hindi"
+                    android:textColor="@color/progressBarColor"
+                    android:textSize="@dimen/_16ssp" />
+
+            </RadioGroup>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/select_btn"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/edit_text_background"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/select"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

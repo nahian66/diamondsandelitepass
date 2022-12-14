@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="redeem_tag_line_1">क्या आप अपने Points को Redeem करना चाहते हैं</string>
+    <string name="redeem_tag_line_2">आपका नंबर या upi id </string>
+    <string name="redeem_tag_line_3">और आपके रिडीम पॉइंट हैं </string>
+    <string name="redeem_tag_line_4">और आपके Redeem का माध्यम हैं </string>
+    <string name="refer_more">अधिक कमाने के लिए अधिक Refer करें</string>
+    <string name="refer_desc">500 Points अर्जित करने के लिए अपने Refer कोड का उपयोग करके दैनिक लूट स्क्रैच और विन ऐप पर अपने दोस्त को आमंत्रित करें। जब वे दैनिक लूट स्क्रैच और जीत पर अपने पहला Points Redeem करते हैं तब आपको ये 500 Points मिलेगे। आपके मित्र को साइनअप बोनस के रूप में 100 Points भी मिलेगे।</string>
+
+
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="number">फ़ोन नंबर डालें</string>
+    <string name="password">पास वर्ड डालेंं</string>
+    <string name="didNotSign_up">Account नहीं है? यहाँ बनाओे</string>
+    <string name="enter_number">नंबर डालें</string>
+    <string name="enter_valid_number">सही फोन नंबर डालेंं</string>
+    <string name="enter_password">पास वर्ड डालेंं</string>
+    <string name="sign_up">Account बनाएं</string>
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="have_an_account">पहले से ही Account है? यहां लॉगिन करें।</string>
+    <string name="enter_name">नाम डालेंं</string>
+    <string name="enter_email">ईमेल डालेंं</string>
+    <string name="enter_valid_email">सही ईमेल डालेंं</string>
+    <string name="enter_6_digit_password">6 या अधिक अंक पासवर्ड दर्ज करें</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="select_language">भाषा का चयन करें</string>
+    <string name="select">चयन करें</string>
+    <string name="referCode">रेफरल कोड डालें</string>
+
+    <string name="please_wait">कृपया प्रतीक्षा करें…</string>
+    <string name="getting_data_from_server">आपका डेटा सर्वर से प्राप्त हो रहा है</string>
+    <string name="login_successfully">सफलतापूर्वक लॉगिन हो गया…</string>
+    <string name="cheating_in_app">आप हमारे ऐप में धोखा देने के लिए आपको Block किये गया है</string>
+    <string name="registration_success">पंजीकरण सफलतापूर्वक हो गया…</string>
+    <string name="login_in_progress">लॉग इन हो रहा है</string>
+
+    <string name="signup_in_progress">पंजीकरण हो रहा है</string>
+    <string name="no_user_found">यह ईमेल पंजीकृत नहीं है</string>
+    <string name="spin_wheel">स्पिन व्हील</string>
+    <string name="scratch">स्क्रैच कार्ड</string>
+    <string name="daily_checkin">Daily चेकिन</string>
+    <string name="slot_machine">स्लॉट मशीन</string>
+    <string name="refer_and_win"><![CDATA[Refer & Win]]></string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="rate_this_app">इस ऐप्लिकेशन को रेटिंग दें</string>
+    <string name="LoginFirst">पहले Login करें</string>
+    <string name="you_won">बधाई आपने अंक जीते</string>
+    <string name="add_to_wallet">जोड़ें</string>
+    <string name="okk">ठीक है</string>
+    <string name="today_chance_over">आज की संभावना समाप्त हो गई है, कल फिर से प्रयास करें</string>
+    <string name="better_luck">अगली बार किस्मत तुम्हारा साथ देगी</string>
+    <string name="today_checkin_over">आपको पहले से ही आज का पुरस्कार मिल गया, कल फिर से प्रयास करें</string>
+    <string name="cancel">नहीं</string>
+    <string name="exit_text">क्या आप वाकई बाहर निकलना चाहते हों?</string>
+    <string name="yes">हाँ</string>
+    <string name="no_internet_connection">कोई इंटरनेट कनेक्शन नहीं है। कृपया अपना इंटरनेट कनेक्शन जांचें।</string>
+
+    <string name="slow_internet_connection">Slow इंटरनेट कनेक्शन कृपया अपने इंटरनेट कनेक्शन की जाँच करें</string>
+    <string name="play">Play</string>
+    <string name="update_profile">प्रोफ़ाइल अपडेट करें</string>
+    <string name="withdraw">Redeem Points</string>
+    <string name="updateing_profile">आपकी प्रोफ़ाइल अपडेट कर रहा है</string>
+    <string name="update_successfully">आपका प्रोफ़ाइल अपडेट सफलतापूर्वक हो गयी है</string>
+    <string name="login_first">पहले Login करो</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="others_settings">सेटिंग</string>
+
+    <string name="your_referCode">आपका Refer कोड</string>
+    <string name="how_does_refer_work">रेफर कैसे काम करता है?</string>
+    <string name="user_registered">User रजिस्टर</string>
+    <string name="first_payout">User का पहला रिडीम</string>
+    <string name="get_reward">आपको इनाम मिलेगा।</string>
+    <string name="refer_now">अभी Refer करें</string>
+    <string name="term">नियम व शर्तें</string>
+    <string name="not_change_email">आप इमेल नहीं बदल सकते है</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="music">Music</string>
+    <string name="withdraw_term">Minimum Redeem Points is 5000</string>
+    <string name="oneCoinEquleTwo">100 सिक्के = 1 INR</string>
+    <string name="number_or_upi">Enter Paytm No, Paypal or Upi Id</string>
+    <string name="withdraw_methods">आप Paytm, Paypal या Upi Id के माध्यम से Points Redeem कर सकते हैं</string>
+    <string name="withdraw_money">Redeem</string>
+    <string name="enter_points">Enter Points</string>
+    <string name="enterNumberOrUpi">Enter Paytm No, Paypal or Upi Id</string>
+    <string name="enter_correct_points">Enter Correct Points</string>
+    <string name="redeem_successfully">Redeem Successfully</string>
+    <string name="in_progress">In Progress</string>
+    <string name="you_are_blocked">इस एप्लिकेशन में धोखा देने के कारण आपको Block किया गया है</string>
+    <string name="incomplite_profile">आपकी प्रोफ़ाइल पूर्ण नहीं है कृपया अपनी प्रोफ़ाइल अपडेट करें</string>
+    <string name="paytm">पेटीएम</string>
+    <string name="phonePe">Payal</string>
+    <string name="upi_id">Upi</string>
+    <string name="paypal">Paypal</string>
+    <string name="referCodeoptional">"Refer Code (Optional) "</string>
+    <string name="otp">Enter OTP</string>
+    <string name="resend_otp">Didn not get OTP? Resend</string>
+
+</resources>

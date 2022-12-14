@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+
+    <!--TODO Status Bar color -->
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">@color/progressBarColor</color>
+
+    <!--TODO button and editText and text Outer color -->
+    <color name="progressBarColor">#8A0808</color>
+
+    <!--TODO button and editText Inner color -->
+    <color name="editTextInnerColor">#F0B50D0D</color>
+    <color name="white">#fff</color>
+    <color name="yellow">#E8E800</color>
+
+    <!--TODO Text hint color in edit text -->
+    <color name="hintColor">#DADADA</color>
+
+    <color name="black">#000000</color>
+    <color name="LoginSingupProgressColor">#D3D3D3</color>
+
+    <!--TODO Background Inner color -->
+    <color name="home_background_color">#EDD8B1</color>
+    <!--TODO Background Outer color -->
+    <color name="home_background_stock_color">#D8BB85</color>
+
+    <color name="pink">#971A90</color>
+    <color name="red">#AF152C</color>
+    <color name="green">#1C9718</color>
+    <color name="brown">#B63930</color>
+    <color name="dark_bule">#411F80</color>
+    <color name="of_dark_bule">#AD411F80</color>
+    <color name="yellow_spin">#DA8303</color>
+</resources>

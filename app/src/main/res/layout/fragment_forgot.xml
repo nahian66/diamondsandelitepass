@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    tools:context=".fragments.ForgotFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:background="@drawable/home_background"
+                android:orientation="vertical"
+                android:padding="@dimen/_4sdp">
+
+                <LinearLayout
+                    android:id="@+id/reset_lyt_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/text_view_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:background="@drawable/top_background_image"
+                        android:fontFamily="@font/carter_one"
+                        android:gravity="center"
+                        android:text="@string/reset_password"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_22ssp" />
+
+                    <EditText
+                        android:id="@+id/reset_email_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_8sdp"
+                        android:background="@drawable/edit_text_background"
+                        android:fontFamily="@font/carter_one"
+                        android:gravity="center"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/_14ssp"
+                        android:visibility="visible" />
+
+                    <EditText
+                        android:id="@+id/reset_otp_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_8sdp"
+                        android:background="@drawable/edit_text_background"
+                        android:fontFamily="@font/carter_one"
+                        android:gravity="center"
+                        android:hint="@string/otp"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/_14ssp"
+                        android:visibility="gone" />
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/reset_password_btn"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@drawable/edit_text_background"
+                        android:fontFamily="@font/carter_one"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/reset"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/resend_otp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:gravity="end"
+                        android:text="@string/resend_otp"
+                        android:textColor="@color/progressBarColor"
+                        android:visibility="gone" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/submit_otp_btn"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@drawable/edit_text_background"
+                        android:fontFamily="@font/carter_one"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/submit"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/change_lyt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:background="@drawable/top_background_image"
+                        android:fontFamily="@font/carter_one"
+                        android:gravity="center"
+                        android:text="@string/reset_password"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_22ssp" />
+
+                    <EditText
+                        android:id="@+id/new_password_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_8sdp"
+                        android:background="@drawable/edit_text_background"
+                        android:fontFamily="@font/carter_one"
+                        android:gravity="center"
+                        android:hint="@string/password"
+                        android:inputType="text"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/_14ssp"
+                        android:visibility="visible" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/password_btn"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@drawable/edit_text_background"
+                        android:fontFamily="@font/carter_one"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/reset"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

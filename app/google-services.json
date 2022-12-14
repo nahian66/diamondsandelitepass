@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1002814387557",
+    "project_id": "codestudioapps-ca4c6",
+    "storage_bucket": "codestudioapps-ca4c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002814387557:android:33cd754f3566a60a70dd8c",
+        "android_client_info": {
+          "package_name": "com.scrachandearn.codestudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002814387557-86j2inevrufc5mfj2mo39binq4f9gt93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeedcDdQ1zDD_oOO8xtVjGDc_UCeofE8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002814387557-86j2inevrufc5mfj2mo39binq4f9gt93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002814387557:android:02c8b6aaf410eb6d70dd8c",
+        "android_client_info": {
+          "package_name": "com.translator.englishurdu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002814387557-86j2inevrufc5mfj2mo39binq4f9gt93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeedcDdQ1zDD_oOO8xtVjGDc_UCeofE8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002814387557-86j2inevrufc5mfj2mo39binq4f9gt93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
