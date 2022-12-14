@@ -5,7 +5,8 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.scrachandearn.codestudio"
+        //applicationId "com.scrachandearn.codestudio"
+        applicationId "com.crisisstudio.fffdiamondsandelitespass"
         minSdkVersion 16
         targetSdkVersion 33
         // every time need to change version code
