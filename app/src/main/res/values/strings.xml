@@ -1,46 +1,58 @@
 <resources>
-    <string name="app_name" translatable="false">ScratchSpin</string>
+    <string name="app_name" translatable="false">FFF Diamonds and Elite pass</string>
 
     <!-- TODO Enable ads which ad network you want -->
     <string name="ad_network" translatable="false">admob</string> <!-- admob/facebook/startapp -->
 
     <!-- TODO set spin and scratch count according to your need -->
-    <string name="spin_and_scratch_count" translatable="false">25</string>
+    <string name="spin_and_scratch_count" translatable="false">100</string>
 
     <!-- TODO set rewarded video and interstitial count according to your need to show rewarded video an interstitial ads after some scratch or spin-->
-    <string name="rewarded_and_interstitial_ads_between_count" translatable="false">3</string>
+    <string name="rewarded_and_interstitial_ads_between_count" translatable="false">7</string>
 
 
-    <!--TODO change these admob id's with your own admob ads-->
+
+    <!--Test Admob ids-->
     <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
     <string name="admob_rewarded_video_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+
+
+
+    <!--TODO change these admob id's with your own admob ads
+    <string name="admob_app_id" translatable="false">ca-app-pub-5113615350429592~6120167782</string>
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-5113615350429592/1741939076</string>
+    <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-5113615350429592/5295500263</string>
+    <string name="admob_rewarded_video_id" translatable="false">ca-app-pub-5113615350429592/6305329609</string>
+-->
+
 
     <!--TODO change these facebook id's with your own facebook ads-->
     <string name="facebook_banner_ads" translatable="false">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
     <string name="facebook_interstitial_ad_id" translatable="false">VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID</string>
     <string name="facebook_rewarded_video_id" translatable="false">VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID</string>
 
-    <!--TODO change these startApp id's with your own startApp id-->
+    <!--TODO change these startApp id's with your own startApp id -->
     <string name="startapp_app_id" translatable="false">209955093</string>
 
+
     <!--TODO change these privacy policy and terms and condition link with your own links-->
-    <string name="privacy_policy_link" translatable="false">https://google.com</string>
-    <string name="terms_and_condition_link" translatable="false">https://google.com</string>
+    <string name="privacy_policy_link" translatable="false">https://sites.google.com/view/fff-diamonds-and-elite-pass/home</string>
+    <string name="terms_and_condition_link" translatable="false">https://sites.google.com/view/fffdiamondsandelitepasses/home</string>
 
     <!--TODO change these minimum Redeem Amount-->
     <string name="minimum_redeem_amount" translatable="false">5000</string>
 
     <!--TODO change these singup bonus give to user at sign up-->
-    <string name="singup_bonus_points" translatable="false">100</string>
+    <string name="singup_bonus_points" translatable="false">500</string>
     <!--TODO change these daily check in limit ACCORDING TO NEED-->
-    <string name="daily_check_in_points" translatable="false">20</string>
+    <string name="daily_check_in_points" translatable="false">50</string>
 
     <string name="redeem_tag_line_1">Are You Sure to want Redeem your points</string>
-    <string name="redeem_tag_line_2">your number or upi id is </string>
+    <string name="redeem_tag_line_2">your UID is </string>
     <string name="redeem_tag_line_3">and your redeem points are </string>
-    <string name="redeem_tag_line_4">and your redeem method is </string>
+    <string name="redeem_tag_line_4">and your redeem server is </string>
     <string name="refer_more">Refer More to Earn More</string>
     <string name="refer_desc">Invite your friend on Daily Loot - Scratch &amp; Spin to Win App using your Refer Code to Earn 500 Points when they redeem his points first time on Daily Loot - Scratch &amp; Spin to Win. Your friend also get 100 Points as Sign up Bonus.</string>
 
@@ -83,7 +95,7 @@
     <string name="LoginFirst">Login First</string>
     <string name="you_won">Congratulation you won</string>
     <string name="add_to_wallet">Add</string>
-    <string name="okk">Okk</string>
+    <string name="okk">Try Again</string>
     <string name="today_chance_over">Today\'s Chance is over, try again tomorrow</string>
     <string name="better_luck">Better Luck Next Time</string>
     <string name="today_checkin_over">You Already Collect Today Reward, try again tomorrow</string>
@@ -112,21 +124,21 @@
     <string name="privacy_policy">Privacy Policy</string>
     <string name="music">Music</string>
     <string name="withdraw_term">Minimum Redeem Points is 5000</string>
-    <string name="oneCoinEquleTwo">100 Coins = 1 INR</string>
-    <string name="number_or_upi">Enter Number, Paypal or Upi Id</string>
-    <string name="withdraw_methods">You Can Redeem Points via Paytm , Paypal or Upi Id</string>
+    <string name="oneCoinEquleTwo">50 Coins = 1 DIAMONDS</string>
+    <string name="number_or_upi">Enter UID</string>
+    <string name="withdraw_methods">You Can Redeem Points Available for India,Bangladesh,Nepal servers</string>
     <string name="withdraw_money">Redeem</string>
     <string name="enter_points">Enter Points</string>
-    <string name="enterNumberOrUpi">Enter Number Or Upi Id</string>
+    <string name="enterNumberOrUpi">Enter UID</string>
     <string name="enter_correct_points">Enter Correct Points</string>
     <string name="redeem_successfully">Redeem Successfully</string>
     <string name="in_progress">In Progress</string>
     <string name="you_are_blocked">You Are Blocked due to cheating in this app</string>
     <string name="incomplite_profile">Your Profile is Incomplete please update your Profile</string>
-    <string name="paytm">Paytm</string>
-    <string name="phonePe">Paypal</string>
-    <string name="upi_id">Upi</string>
-    <string name="paypal">Paypal</string>
+    <string name="paytm">India</string>
+    <string name="phonePe">//</string>
+    <string name="upi_id">Bangladesh</string>
+    <string name="paypal">Nepal</string>
     <string name="referCodeoptional">"Refer Code (Optional) "</string>
 
 
