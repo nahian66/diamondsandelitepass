@@ -140,6 +140,7 @@ public class Constant {
                     Log.e(TAG, "Interstitial ad failed to load: " + adError.getErrorMessage());
                 }
 
+
                 @Override
                 public void onAdLoaded(Ad ad) {
                     // Interstitial ad is loaded and ready to be displayed
@@ -315,7 +316,7 @@ public class Constant {
 
                 @Override
                 public void onError(Ad ad, com.facebook.ads.AdError adError) {
-                    Log.e(TAG, "Rewarded video ad failed to load: " + adError.getErrorMessage());
+                    //Log.e(TAG, "Rewarded video ad failed to load: " + adError.getErrorMessage());
                 }
 
                 @Override
