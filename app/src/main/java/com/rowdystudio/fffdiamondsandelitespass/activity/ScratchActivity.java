@@ -234,7 +234,7 @@ public class ScratchActivity extends AppCompatActivity implements ScratchListene
                     }
                     if (scratch_count == Integer.parseInt(getResources().getString(R.string.rewarded_and_interstitial_ads_between_count))) {
                         if (rewardShow) {
-                            Log.e(TAG, "onReachTarget: rewaded ads showing method");
+                            Log.e(TAG, "onReachTarget: rewarded ads showing method");
                             if (getResources().getString(R.string.ad_network).equals("startapp")) {
                                 ShowInterstital();
                             } else {
@@ -276,7 +276,8 @@ public class ScratchActivity extends AppCompatActivity implements ScratchListene
         TextView points_text = dialog.findViewById(R.id.points);
         AppCompatButton add_btn = dialog.findViewById(R.id.add_btn);
         AppCompatButton cancel_btn = dialog.findViewById(R.id.cancel_btn);
-        cancel_btn.setVisibility(View.VISIBLE);
+        // ads cannot cancel
+        cancel_btn.setVisibility(View.GONE);
         imageView.setImageResource(R.drawable.ic_trophy);
         add_btn.setText("Yes");
         title_text.setText("Watch Full Video");

@@ -5,14 +5,13 @@ android {
     buildToolsVersion '30.0.3'
 
     defaultConfig {
-        //applicationId "com.scrachandearn.codestudio"
         applicationId "com.crisisstudio.fffdiamondsandelitespass"
         minSdkVersion 16
         targetSdkVersion 33
         // every time need to change version code
-        versionCode 7
+        versionCode 16
         // version name need to change every time
-        versionName "1.1.5"
+        versionName "1.2.6"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
