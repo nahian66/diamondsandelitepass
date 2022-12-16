@@ -88,25 +88,25 @@ public class SpinActivity extends AppCompatActivity {
         user_points_text_view = findViewById(R.id.user_points_text_view);
         spin_count_text_view = findViewById(R.id.spin_count_textView);
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "0"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "3"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "3"));
-
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "5"));
-
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "7"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "6"));
 
         wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "9"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "11"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "12"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "13"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "15"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "15"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "18"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "18"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "21"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "20"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "24"));
+
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "27"));
+
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "30"));
         luckyWheel.addWheelItems(wheelItems);
         if (Constant.isNetworkAvailable(activity)) {
             loadBanner();
@@ -345,7 +345,8 @@ public class SpinActivity extends AppCompatActivity {
         TextView points_text = dialog.findViewById(R.id.points);
         AppCompatButton add_btn = dialog.findViewById(R.id.add_btn);
         AppCompatButton cancel_btn = dialog.findViewById(R.id.cancel_btn);
-        cancel_btn.setVisibility(View.VISIBLE);
+        // ads cannot cancel
+        cancel_btn.setVisibility(View.GONE);
         add_btn.setText("Yes");
         imageView.setImageResource(R.drawable.ic_trophy);
         title_text.setText("Watch Full Video");
