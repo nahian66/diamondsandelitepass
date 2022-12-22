@@ -129,7 +129,7 @@ public class ScratchActivity extends AppCompatActivity implements ScratchListene
             String currentDate = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());
             Log.e("TAG", "onClick: Current Date" + currentDate);
             String last_date = Constant.getString(activity, Constant.LAST_DATE_SCRATCH);
-            Log.e("TAG", "Lat date" + last_date);
+            Log.e("TAG", "Last date" + last_date);
             if (last_date.equals("")) {
                 Log.e("TAG", "onInit: last date empty part");
                 scratch_count_textView.setText(getResources().getString(R.string.spin_and_scratch_count));

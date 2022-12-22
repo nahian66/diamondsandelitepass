@@ -5,10 +5,10 @@
     <string name="ad_network" translatable="false">admob</string> <!-- admob/facebook/startapp -->
 
     <!-- TODO set spin and scratch count according to your need -->
-    <string name="spin_and_scratch_count" translatable="false">100</string>
+    <string name="spin_and_scratch_count" translatable="false">50</string>
 
     <!-- TODO set rewarded video and interstitial count according to your need to show rewarded video an interstitial ads after some scratch or spin-->
-    <string name="rewarded_and_interstitial_ads_between_count" translatable="false">7</string>
+    <string name="rewarded_and_interstitial_ads_between_count" translatable="false">10</string>
 
 
 
