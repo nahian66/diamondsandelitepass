@@ -9,9 +9,9 @@ android {
         minSdkVersion 16
         targetSdkVersion 33
         // every time need to change version code
-        versionCode 19
+        versionCode 20
         // version name need to change every time
-        versionName "1.2.9"
+        versionName "1.3.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
