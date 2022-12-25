@@ -88,25 +88,25 @@ public class SpinActivity extends AppCompatActivity {
         user_points_text_view = findViewById(R.id.user_points_text_view);
         spin_count_text_view = findViewById(R.id.spin_count_textView);
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "3"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "1"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "6"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "3"));
+
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "5"));
+
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "7"));
 
         wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "9"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "12"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "11"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "15"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "13"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "18"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "15"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "21"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "18"));
 
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "24"));
-
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.dark_bule, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "27"));
-
-        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "30"));
+        wheelItems.add(new WheelItem(ResourcesCompat.getColor(getResources(), R.color.yellow_spin, null), BitmapFactory.decodeResource(getResources(), R.drawable.coin), "20"));
         luckyWheel.addWheelItems(wheelItems);
         if (Constant.isNetworkAvailable(activity)) {
             loadBanner();
