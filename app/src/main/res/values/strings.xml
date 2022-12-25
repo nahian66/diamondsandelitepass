@@ -2,13 +2,13 @@
     <string name="app_name" translatable="false">Diamonds and Elite pass</string>
 
     <!-- TODO Enable ads which ad network you want -->
-    <string name="ad_network" translatable="false">admob</string> <!-- admob/facebook/startapp -->
+    <string name="ad_network" translatable="false">startapp</string> <!-- admob/facebook/startapp -->
 
     <!-- TODO set spin and scratch count according to your need -->
-    <string name="spin_and_scratch_count" translatable="false">50</string>
+    <string name="spin_and_scratch_count" translatable="false">100</string>
 
     <!-- TODO set rewarded video and interstitial count according to your need to show rewarded video an interstitial ads after some scratch or spin-->
-    <string name="rewarded_and_interstitial_ads_between_count" translatable="false">10</string>
+    <string name="rewarded_and_interstitial_ads_between_count" translatable="false">7</string>
 
 
 
@@ -33,7 +33,7 @@
     <string name="facebook_rewarded_video_id" translatable="false">1252039419025235_1252078242354686</string>
 
     <!--TODO change these startApp id's with your own startApp id -->
-    <string name="startapp_app_id" translatable="false">209955093</string>
+    <string name="startapp_app_id" translatable="false">211257369</string>
 
 
     <!--TODO change these privacy policy and terms and condition link with your own links-->
@@ -41,7 +41,7 @@
     <string name="terms_and_condition_link" translatable="false">https://sites.google.com/view/fffdiamondsandelitepasses/home</string>
 
     <!--TODO change these minimum Redeem Amount-->
-    <string name="minimum_redeem_amount" translatable="false">18000</string>
+    <string name="minimum_redeem_amount" translatable="false">30000</string>
 
     <!--TODO change these singup bonus give to user at sign up-->
     <string name="singup_bonus_points" translatable="false">500</string>
@@ -122,8 +122,8 @@
     <string name="not_change_email">You can\'t change email</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="music">Music</string>
-    <string name="withdraw_term">Minimum Redeem Points is 10000</string>
-    <string name="oneCoinEquleTwo">180 Coins = 1 DIAMOND</string>
+    <string name="withdraw_term">Minimum Redeem Points is 30000</string>
+    <string name="oneCoinEquleTwo">150 Coins = 1 DIAMOND</string>
     <string name="number_or_upi">Enter UID</string>
     <string name="withdraw_methods">You Can Redeem Points Available for India,Bangladesh,Nepal servers</string>
     <string name="withdraw_money">Redeem</string>
