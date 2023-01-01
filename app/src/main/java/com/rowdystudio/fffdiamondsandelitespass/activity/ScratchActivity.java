@@ -280,7 +280,7 @@ public class ScratchActivity extends AppCompatActivity implements ScratchListene
         cancel_btn.setVisibility(View.GONE);
         imageView.setImageResource(R.drawable.ic_trophy);
         add_btn.setText("Yes");
-        title_text.setText("Watch Full Video");
+        title_text.setText("Watch Ad");
         points_text.setText("To Unlock this Reward Points");
 
         add_btn.setOnClickListener(new View.OnClickListener() {

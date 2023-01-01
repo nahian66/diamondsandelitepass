@@ -349,7 +349,7 @@ public class SpinActivity extends AppCompatActivity {
         cancel_btn.setVisibility(View.GONE);
         add_btn.setText("Yes");
         imageView.setImageResource(R.drawable.ic_trophy);
-        title_text.setText("Watch Full Video");
+        title_text.setText("Watch Ad");
         points_text.setText("To Unlock this Reward Points");
 
         add_btn.setOnClickListener(new View.OnClickListener() {
