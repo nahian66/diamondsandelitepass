@@ -2,7 +2,7 @@
     <string name="app_name" translatable="false">Diamonds and Elite pass</string>
 
     <!-- TODO Enable ads which ad network you want -->
-    <string name="ad_network" translatable="false">startapp</string> <!-- admob/facebook/startapp -->
+    <string name="ad_network" translatable="false">admob</string> <!-- admob/facebook/startapp -->
 
     <!-- TODO set spin and scratch count according to your need -->
     <string name="spin_and_scratch_count" translatable="false">100</string>
